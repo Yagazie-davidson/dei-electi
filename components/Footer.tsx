@@ -48,60 +48,14 @@ const Footer = () => {
       <div className="my-20 px-4 md:px-16 hidden md:block">
         <hr className="" />
       </div>
-      <div className="flex flex-col md:flex-row md: justify-between md: items-center w-full">
-        <section className="px-4 md:px-16 mt-6 w-full md:w-fit">
-          <h1 className="font-medium text-xl md:text-4xl text-center md:text-left mb-2">
+      <div className="flex flex-col md:flex-row md:justify-between md: items-center w-full">
+        <section className="px-4 md:px-16 w-full md:w-fit">
+          {/* <h1 className="font-medium text-xl md:text-4xl text-center md:text-left mb-2">
             Currency
-          </h1>
+          </h1> */}
           <CountrySelector />
         </section>
-        <section className="px-4 md:px-16 mt-6">
-          <h1 className="font-medium text-xl md:text-4xl text-center mb-2">
-            Links
-          </h1>
-          <ul className="flex flex-wrap items-center justify-between space-x-4">
-            <li>
-              <Link
-                href={"#"}
-                className="underline font-normal text-sm md:text-[28px] tracking-[.5px]"
-              >
-                Shipping
-              </Link>
-            </li>
-            <li>
-              <Link
-                href={"#"}
-                className="underline font-normal text-sm md:text-[28px] tracking-[.5px]"
-              >
-                Aura
-              </Link>
-            </li>
-            <li>
-              <Link
-                href={"#"}
-                className="underline font-normal text-sm md:text-[28px] tracking-[.5px]"
-              >
-                Rizz
-              </Link>
-            </li>
-            <li>
-              <Link
-                href={"#"}
-                className="underline font-normal text-sm md:text-[28px] tracking-[.5px]"
-              >
-                Limited Collection
-              </Link>
-            </li>
-            <li>
-              <Link
-                href={"#"}
-                className="underline font-normal text-sm md:text-[28px] tracking-[.5px]"
-              >
-                Dei Electi
-              </Link>
-            </li>
-          </ul>
-        </section>
+
         <section className="px-4 md:px-16 mt-6">
           <h1 className="font-medium text-xl md:text-4xl text-center mb-2">
             Socials
@@ -140,16 +94,10 @@ const Footer = () => {
           </div>
         </section>
       </div>
-      <section className="px-4 md:px-16 my-6 w-full md:max-w-1/3">
-        <h1 className="font-medium text-xl md:text-4xl text-center md:text-left mb-2">
-          Country
-        </h1>
-        <CountrySelector />
-      </section>
-      <section className="px-4 md:px-16">
+      <section className="px-4 md:px-16 mt-10">
         <hr />
         <p className="text-[#000000] font-normal text-[12px] md:text-2xl text-center mt-[27px] mb-12">
-          Dei Electi © 2024
+          GOAT © {new Date().getFullYear()}
         </p>
       </section>
     </>
