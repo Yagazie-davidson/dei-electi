@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <section className="bg-[#00000080]  bg-blend-multiply  relative text-white bg-[url(https://llygant.com/cdn/shop/files/IMG_4875.jpg)] h-[704px] bg-cover bg-center flex justify-center items-center flex-col">
+      <section className="bg-[#00000080]  bg-blend-multiply  relative text-white bg-[url(/images/hero.jpg)] h-[704px] bg-cover bg-center flex justify-center items-center flex-col">
         <h2 className="uppercase text-[32px] md:text-[80px] font-medium mb-1">
           GOAT&apos;S SALVATION
         </h2>
